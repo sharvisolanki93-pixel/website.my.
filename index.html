@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='27.portfolio.css'>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Sharvi Solanki</h1>
+                <h2>Full Stack Developer</h2>
+                <p>
+                    Creating beautiful and functional web applications with modern technologies. Passionate about clean
+                    code and user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile1.png" alt="Profile" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <header class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </header>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I'm a passionate developer who loves creating amazing digital experiences</h3>
+                    <p>
+                        With 15+ years of experience in web development, I specialize in building
+                        modern, responsive websites and applications using the latest technologies.
+                    </p>
+                    <p>
+                        I'm dedicated to writing clean, maintainable code and creating intuitive
+                        user experiences. Whether it's a simple landing page or a complex web
+                        application, I approach every project with enthusiasm and attention to detail.
+                    </p>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <header class="section-header">
+                <h2>My Skills</h2>
+                <p>Technologies I work with</p>
+            </header>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, MongoDB, MySQL</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Responsive Design</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>React Native, Flutter</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Docker, CI/CD, Git</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🔒</div>
+                    <h3>Security</h3>
+                    <p>Authentication, Authorization, Encryption</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <header class="section-header">
+                <h2>My Portfolio</h2>
+                <p>Recent projects I've worked on</p>
+            </header>
+
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="ecom.jpg" alt="E-commerce Platform">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-featured online shopping platform with payment integration</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="taskma.jpg" alt="Task Management">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Task Management App</h3>
+                        <p>Productivity tool for teams with real-time collaboration</p>
+                        <div class="tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="portfolio.jpg" alt="Portfolio Website">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern portfolio with smooth animations and interactions</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="mobile.jpg" alt="Mobile App">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracker Mobile App</h3>
+                        <p>Cross-platform app for tracking workouts and nutrition</p>
+                        <div class="tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Redux</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="dashboard.jpg" alt="Dashboard">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization dashboard for business insights</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="blog.jpg" alt="Blog Platform">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Blog Platform</h3>
+                        <p>Content management system with rich text editor</p>
+                        <div class="tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Prisma</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's work together on your next project</p>
+            </header>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p style="margin-bottom: 30px;">
+                        Feel free to reach out to me. I'm always open to discussing new projects
+                        and opportunities.
+                    </p>
+
+                    <address>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong><br>
+                                abc@example.com
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong><br>
+                                +91 2355656576
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong><br>
+                                Bhavnagar, India
+                            </div>
+                        </div>
+                    </address>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sharvi Solanki. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll to top button
+        window.addEventListener('scroll', function () {
+            const scrollTop = document.querySelector('.scroll-top');
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('show');
+            } else {
+                scrollTop.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Form submission
+        document.querySelector('.contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
